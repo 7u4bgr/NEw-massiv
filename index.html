@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <script>
+        let background = document.createElement("div")
+        background.classList.add("background")
+        let boxs1 = document.createElement("div")
+        boxs1.classList.add("boxs1")
+        let p6 = document.createElement("p")
+        p6.classList.add("p6")
+        p6.innerHTML = "Register"
+        boxs1.appendChild(p6)
+        let input1 = document.createElement("input")
+        input1.classList.add("input1")
+        input1.placeholder = "Name"
+        boxs1.appendChild(input1)
+        let input2 = document.createElement("input")
+        input2.classList.add("input2")
+        input2.placeholder = "Last Name"
+        boxs1.appendChild(input2)
+        let checkcontrol = document.createElement("div")
+        checkcontrol.classList.add("checkcontrol")
+        boxs1.appendChild(checkcontrol)
+        let check1 = document.createElement("div")
+        check1.classList.add("check1")
+        checkcontrol.appendChild(check1)
+        let input3 = document.createElement("input")
+        input3.classList.add("input3")
+        input3.type = "checkbox"
+        check1.appendChild(input3)
+        let p1 = document.createElement("p")
+        p1.classList.add("p1")
+        p1.innerHTML = "Men"
+        check1.appendChild(p1)
+        let check2 = document.createElement("div")
+        check2.classList.add("check2")
+        checkcontrol.appendChild(check2)
+        let input7 = document.createElement("input")
+        input7.classList.add("input7")
+        input7.type = "checkbox"
+        check2.appendChild(input7)
+        let p2 = document.createElement("p")
+        p2.classList.add("p2")
+        p2.innerHTML = "Woman"
+        check2.appendChild(p2)
+        let check3 = document.createElement("div")
+        check3.classList.add("check3")
+        checkcontrol.appendChild(check3)
+        let input8 = document.createElement("input")
+        input8.classList.add("input8")
+        input8.type = "checkbox"
+        check3.appendChild(input8)
+        let p3 = document.createElement("p")
+        p3.classList.add("p3")
+        p3.innerHTML = "Other"
+        check3.appendChild(p3)
+        let input9 = document.createElement("input")
+        input9.classList.add("input9")
+        input9.type = "datetime-local"
+        boxs1.appendChild(input9)
+        let input10 = document.createElement("input")
+        input10.classList.add("input10")
+        input10.placeholder = "Company"
+        boxs1.appendChild(input10)
+        let input11 = document.createElement("input")
+        input11.classList.add("input11")
+        input11.placeholder = "Position (optional)"
+        boxs1.appendChild(input11)
+        let p4 = document.createElement("p")
+        p4.classList.add("p4")
+        p4.innerHTML = "From:"
+        boxs1.appendChild(p4)
+        let input12 = document.createElement("input")
+        input12.classList.add("input12")
+        input12.type = "date"
+        boxs1.appendChild(input12)
+        let p5 = document.createElement("p")
+        p5.classList.add("p5")
+        p5.innerHTML = "To:"
+        boxs1.appendChild(p5)
+        let input13 = document.createElement("input")
+        input13.classList.add("input13")
+        input13.type = "date"
+        boxs1.appendChild(input13)
+        let input14 = document.createElement("input")
+        input14.classList.add("input14")
+        input14.type = "email"
+        input14.placeholder="E-mail"
+        boxs1.appendChild(input14)
+        let input15 = document.createElement("input")
+        input15.classList.add("input15")
+        input15.type = "user"
+        input15.placeholder="Username"
+        boxs1.appendChild(input15)
+        let input16 = document.createElement("input")
+        input16.classList.add("input16")
+        input16.type = "password"
+        input16.placeholder="Password"
+        boxs1.appendChild(input16)
+        let button1=document.createElement("button")
+        button1.classList.add("button1")
+        button1.innerHTML="Register"
+        boxs1.appendChild(button1)
+
+
+
+
+
+
+        background.appendChild(boxs1)
+        document.body.appendChild(background)
+    </script>
+</body>
+
+</html>
